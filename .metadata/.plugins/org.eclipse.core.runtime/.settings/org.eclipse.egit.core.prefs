@@ -1,4 +1,6 @@
-GitRepositoriesView.GitDirectories=/Users/seryeong/toyProject/Project/.git\:/Users/seryeong/toyProject/Toy-Project/.git\:
-GitRepositoriesView.GitDirectories.relative=Project/.git\:Toy-Project/.git\:
+GitRepositoriesView.GitDirectories=/Users/seryeong/git/ToyProject_10.16/.git\:
+GitRepositoriesView.GitDirectories.relative=/Users/seryeong/git/ToyProject_10.16/.git\:
+RepositoryGroups.uuids=
+RepositorySearchDialogSearchPath=/Users/seryeong/git
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
