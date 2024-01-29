@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+
+<style type="text/css">
+.container{
+	margin:150px;
+	height: 400px;
+	width: 400px;
+	outline: solid 1px e9eae9;
+	border-radius: 8px;
+	background-color: #e9eae9;
+	
+}
+
+.login-input{
+	width: 90%;
+	height: 20px;
+	right:0px;
+}
+.login-title{
+	font-size: 40px;
+	text-align: center;
+}
+.content{
+	align-items:center;
+}
+
+</style>
+</head>
+<body>
+	<div class="container">
+	<form method="post" action="login.do">
+		<h1 class="login-title">login page</h1>
+		
+		<div class="content">
+			<div class="input-div">
+				<span>아이디</span>
+				<input class="login-input" type="text" id="id" name="id" required maxlength="20">
+			</div>
+			<div class="input-div">
+				<span>비밀번호</span>
+				<input class="login-input" type="password" id="pw" name="pw" required maxlength="20">
+			</div>
+		</div>
+			
+		<button type="submit">로그인</button>
+		<p>아이디가 없으면, <a>회원가입</a>을 완료하세요.</p>
+	</form>	
+	</div>
+</body>
+</html>

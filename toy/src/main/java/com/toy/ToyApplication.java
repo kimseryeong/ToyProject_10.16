@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@MapperScan("com.toy.mapper")
-@ComponentScan("com.toy.controller")
+@MapperScan("com.toy.mapper.*")
+@ComponentScan("com.toy.controller.*")
 @SpringBootApplication
 public class ToyApplication {
 

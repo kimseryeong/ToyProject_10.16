@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.toy.mapper.LoginMapper">
+
+	<select id="userLogin" parameterType="String" resultType="com.toy.domain.member.LoginVO">
+		SELECT ID
+			,PW
+			,NAME
+			,ADDRESS
+		FROM USER
+		WHERE 1 = 1
+			AND ID = #{id}
+			AND PW = #{pw}
+	</select>
+	
+</mapper>
