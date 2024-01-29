@@ -38,7 +38,6 @@ public class LoginController {
 		
 		LoginVO res = loginDAO.selectUserLogin(id, pw);
 		
-		logger.INFO("res : " + res);
 		
 		String result = "성공 ";
 		
